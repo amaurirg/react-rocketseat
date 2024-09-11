@@ -4,6 +4,26 @@ Criar projeto com Vite
 npm create vite@latest
 
 Pode escolher qual framework e Javascript ou Typescript
+Dê um nome ao projeto
+Entre nessa pasta
+Instale as dependências
+--------------------------------------------------------------
+Exemplo:
+npm create vite@latest
+npx: instalou 1 em 1.091s
+✔ Project name: … teste
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript
+
+Scaffolding project in /home/amauri/teste_post/teste...
+
+Done. Now run:
+
+  cd teste
+  npm install
+  npm run dev
+
+--------------------------------------------------------------
 
 Instalar as dependências
 npm i
@@ -34,7 +54,7 @@ export default defineConfig({
 
 
 Limpando o projeto antes de começar
-Remova os arquivo css e svg da pasta src, ficando apenas App.jsx e main.jsx
+Remova os arquivo css e svg da pasta src e src/assets, ficando apenas App.jsx e main.jsx
 Remova a importação do index.css de main.jsx
 Remova a importação do useState, App.css e logo.svg de App.jsx
 Remova todo o conteúdo do return e deixe assim
@@ -65,7 +85,7 @@ export default Post
 ou
 
 export function Post() {
-    return <p>Post</post>
+    return <p>Post</p>
 }
 Essa forma é melhor porque garante que o nome importado é o mesmo do componente
 
