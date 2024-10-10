@@ -187,6 +187,9 @@ export function App() {
   )
 }
 
+Lib para trabalhar com datas
+npm i date-fns
+
 
 
 
